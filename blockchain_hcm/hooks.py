@@ -1,5 +1,5 @@
 app_name = "blockchain_hcm"
-app_title = "Blockchain Hcm"
+app_title = "Blockchain HCM"
 app_publisher = "Danar IT"
 app_description = "Blockchain Management System"
 app_email = "danarikram@gmail.com"
@@ -11,15 +11,14 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "blockchain_hcm",
-# 		"logo": "/assets/blockchain_hcm/logo.png",
-# 		"title": "Blockchain Hcm",
-# 		"route": "/blockchain_hcm",
-# 		"has_permission": "blockchain_hcm.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "blockchain_hcm",
+		"logo": "/assets/blockchain_hcm/logo.png",
+		"title": "Blockchain HCM",
+		"route": "/app/blockchain-hcm",
+	}
+]
 
 # Includes in <head>
 # ------------------
@@ -52,36 +51,6 @@ app_license = "mit"
 # ------------------
 # include app icons in desk
 # app_include_icons = "blockchain_hcm/public/icons.svg"
-
-# Fixtures
-# --------
-fixtures = [
-	{
-		"dt": "Workspace",
-		"filters": [
-			[
-				"name",
-				"in",
-				[
-					"Blockchain HCM",
-					"Credentials Management",
-				]
-			]
-		]
-	},
-	{
-		"dt": "DocType",
-		"filters": [
-			[
-				"name",
-				"in",
-				[
-					"Employee Credential",
-				]
-			]
-		]
-	},
-]
 
 # Home Pages
 # ----------
