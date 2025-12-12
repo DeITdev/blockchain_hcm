@@ -53,6 +53,23 @@ app_license = "mit"
 # include app icons in desk
 # app_include_icons = "blockchain_hcm/public/icons.svg"
 
+# Fixtures
+# --------
+fixtures = [
+	{
+		"dt": "Workspace",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Blockchain HCM",
+				]
+			]
+		]
+	},
+]
+
 # Home Pages
 # ----------
 
