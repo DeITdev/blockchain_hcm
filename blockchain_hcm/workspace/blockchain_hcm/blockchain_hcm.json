@@ -1,4 +1,5 @@
 {
+  "app": "blockchain_hcm",
   "charts": [],
   "content": "[{\"id\":\"XGIwEUStw_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"69RN0XsiJK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Credential\",\"col\":3}},{\"id\":\"spacer1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ttpROKW9vk\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Masters</b></span>\",\"col\":12}},{\"id\":\"_YmGwzVWRr\",\"type\":\"card\",\"data\":{\"card_name\":\"Credentials\",\"col\":4}}]",
   "creation": "2025-12-12 00:00:00.000000",

@@ -64,6 +64,7 @@ fixtures = [
 				"in",
 				[
 					"Blockchain HCM",
+					"Credentials Management",
 				]
 			]
 		]
