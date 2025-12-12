@@ -68,6 +68,18 @@ fixtures = [
 			]
 		]
 	},
+	{
+		"dt": "DocType",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Employee Credential",
+				]
+			]
+		]
+	},
 ]
 
 # Home Pages
