@@ -16,7 +16,7 @@ add_to_apps_screen = [
 		"name": "blockchain_hcm",
 		"logo": "/assets/blockchain_hcm/logo.png",
 		"title": "Blockchain HCM",
-		"route": "/app/blockchain-hcm",
+		"route": "/app/workspace/blockchain-hcm",
 	}
 ]
 
