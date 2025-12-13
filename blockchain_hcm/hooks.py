@@ -1,5 +1,5 @@
 app_name = "blockchain_hcm"
-app_title = "Blockchain HCM"
+app_title = "Blockchain"
 app_publisher = "Danar IT"
 app_description = "Blockchain Management System"
 app_email = "danarikram@gmail.com"
@@ -15,7 +15,7 @@ add_to_apps_screen = [
 	{
 		"name": "blockchain_hcm",
 		"logo": "/assets/blockchain_hcm/logo.png",
-		"title": "Blockchain HCM",
+		"title": "Blockchain",
 		"route": "/app/workspace/blockchain-hcm",
 	}
 ]
