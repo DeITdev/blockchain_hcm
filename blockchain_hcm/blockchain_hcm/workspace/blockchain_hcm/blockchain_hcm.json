@@ -1,49 +1,59 @@
 {
-  "app": "blockchain_hcm",
-  "charts": [],
-  "content": "[{\"id\":\"XGIwEUStw_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"69RN0XsiJK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Credential\",\"col\":3}},{\"id\":\"spacer1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ttpROKW9vk\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Masters</b></span>\",\"col\":12}},{\"id\":\"_YmGwzVWRr\",\"type\":\"card\",\"data\":{\"card_name\":\"Credentials\",\"col\":4}}]",
-  "creation": "2025-12-12 00:00:00.000000",
-  "custom_blocks": [],
-  "docstatus": 0,
-  "doctype": "Workspace",
-  "for_user": "",
-  "hide_custom": 0,
-  "icon": "database",
-  "idx": 1,
-  "is_hidden": 0,
-  "label": "Blockchain HCM",
-  "links": [
-    {
-      "hidden": 0,
-      "is_query_report": 0,
-      "label": "Credentials",
-      "link_count": 0,
-      "type": "Card Break"
-    },
-    {
-      "hidden": 0,
-      "is_query_report": 0,
-      "label": "Employee Credential",
-      "link_count": 0,
-      "link_to": "Employee Credential",
-      "link_type": "DocType",
-      "onboard": 1,
-      "type": "Link"
-    }
-  ],
-  "modified": "2025-12-12 00:00:00.000000",
-  "modified_by": "Administrator",
-  "module": "Blockchain HCM",
-  "name": "Blockchain HCM",
-  "owner": "Administrator",
-  "shortcuts": [
-    {
-      "color": "Blue",
-      "doc_view": "List",
-      "icon": "file",
-      "label": "Employee Credential",
-      "link_to": "Employee Credential",
-      "type": "DocType"
-    }
-  ]
+ "app": "blockchain_hcm",
+ "charts": [],
+ "content": "[{\"id\":\"XGIwEUStw_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"69RN0XsiJK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Credential\",\"col\":3}},{\"id\":\"spacer1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ttpROKW9vk\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Masters</b></span>\",\"col\":12}},{\"id\":\"_YmGwzVWRr\",\"type\":\"card\",\"data\":{\"card_name\":\"Credentials\",\"col\":4}}]",
+ "creation": "2025-12-12 00:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "database",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Blockchain HCM",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Credentials",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Credential",
+   "link_count": 0,
+   "link_to": "Employee Credential",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-12-12 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Blockchain Hcm",
+ "name": "Blockchain HCM",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "icon": "file",
+   "label": "Employee Credential",
+   "link_to": "Employee Credential",
+   "type": "DocType"
+  }
+ ],
+ "title": "Blockchain HCM",
+ "type": "Workspace"
 }

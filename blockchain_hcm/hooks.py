@@ -20,6 +20,9 @@ add_to_apps_screen = [
 	}
 ]
 
+# App home route
+app_home = "/app/workspace/blockchain-hcm"
+
 # Includes in <head>
 # ------------------
 
