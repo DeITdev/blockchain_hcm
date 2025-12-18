@@ -4,6 +4,7 @@ app_publisher = "Danar IT"
 app_description = "Blockchain Management System"
 app_email = "danarikram@gmail.com"
 app_license = "mit"
+app_logo_url = "/assets/blockchain_hcm/images/blockchain-logo.svg"
 
 # Apps
 # ------------------
@@ -14,14 +15,14 @@ app_license = "mit"
 add_to_apps_screen = [
 	{
 		"name": "blockchain_hcm",
-		"logo": "/assets/blockchain_hcm/logo.png",
+		"logo": "/assets/blockchain_hcm/images/blockchain-logo.svg",
 		"title": "Blockchain",
-		"route": "/app/workspace/blockchain-hcm",
+		"route": "/app/blockchain",
 	}
 ]
 
 # App home route
-app_home = "/app/workspace/blockchain-hcm"
+app_home = "/app/blockchain"
 
 # Includes in <head>
 # ------------------
