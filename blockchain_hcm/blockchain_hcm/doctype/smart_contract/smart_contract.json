@@ -1,0 +1,102 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "field:contract_name",
+  "creation": "2025-12-19 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "contract_name",
+    "contract_address",
+    "section_break_network",
+    "chain_network",
+    "status",
+    "section_break_details",
+    "abi",
+    "description"
+  ],
+  "fields": [
+    {
+      "fieldname": "contract_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Contract Name",
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "contract_address",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Contract Address",
+      "reqd": 1
+    },
+    {
+      "fieldname": "section_break_network",
+      "fieldtype": "Section Break",
+      "label": "Network Details"
+    },
+    {
+      "default": "Ethereum Mainnet",
+      "fieldname": "chain_network",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Chain Network",
+      "options": "Ethereum Mainnet\nEthereum Goerli\nPolygon Mainnet\nPolygon Mumbai\nBinance Smart Chain\nAvalanche\nArbitrum\nOptimism\nCustom"
+    },
+    {
+      "default": "Active",
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Status",
+      "options": "Active\nInactive\nDeprecated"
+    },
+    {
+      "fieldname": "section_break_details",
+      "fieldtype": "Section Break",
+      "label": "Contract Details"
+    },
+    {
+      "fieldname": "abi",
+      "fieldtype": "Code",
+      "label": "ABI (JSON)",
+      "options": "JSON"
+    },
+    {
+      "fieldname": "description",
+      "fieldtype": "Text Editor",
+      "label": "Description"
+    }
+  ],
+  "icon": "fa fa-file-code-o",
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2025-12-19 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Blockchain Hcm",
+  "name": "Smart Contract",
+  "naming_rule": "By fieldname",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": [],
+  "track_changes": 1
+}

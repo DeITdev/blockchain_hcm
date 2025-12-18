@@ -1,0 +1,148 @@
+{
+  "actions": [],
+  "allow_rename": 0,
+  "autoname": "format:TX-{#####}",
+  "creation": "2025-12-19 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "transaction_hash",
+    "column_break_1",
+    "timestamp",
+    "section_break_addresses",
+    "from_address",
+    "column_break_2",
+    "to_address",
+    "section_break_details",
+    "amount",
+    "currency",
+    "column_break_3",
+    "status",
+    "gas_used",
+    "section_break_additional",
+    "smart_contract",
+    "notes"
+  ],
+  "fields": [
+    {
+      "fieldname": "transaction_hash",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Transaction Hash",
+      "reqd": 1
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "default": "Now",
+      "fieldname": "timestamp",
+      "fieldtype": "Datetime",
+      "in_list_view": 1,
+      "label": "Timestamp"
+    },
+    {
+      "fieldname": "section_break_addresses",
+      "fieldtype": "Section Break",
+      "label": "Addresses"
+    },
+    {
+      "fieldname": "from_address",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "From Address",
+      "reqd": 1
+    },
+    {
+      "fieldname": "column_break_2",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "to_address",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "To Address",
+      "reqd": 1
+    },
+    {
+      "fieldname": "section_break_details",
+      "fieldtype": "Section Break",
+      "label": "Transaction Details"
+    },
+    {
+      "fieldname": "amount",
+      "fieldtype": "Currency",
+      "label": "Amount"
+    },
+    {
+      "default": "ETH",
+      "fieldname": "currency",
+      "fieldtype": "Select",
+      "label": "Currency",
+      "options": "ETH\nBNB\nMATIC\nAVAX\nUSDT\nUSDC\nCustom"
+    },
+    {
+      "fieldname": "column_break_3",
+      "fieldtype": "Column Break"
+    },
+    {
+      "default": "Pending",
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Status",
+      "options": "Pending\nConfirmed\nFailed\nReverted"
+    },
+    {
+      "fieldname": "gas_used",
+      "fieldtype": "Int",
+      "label": "Gas Used"
+    },
+    {
+      "fieldname": "section_break_additional",
+      "fieldtype": "Section Break",
+      "label": "Additional Information"
+    },
+    {
+      "fieldname": "smart_contract",
+      "fieldtype": "Link",
+      "label": "Smart Contract",
+      "options": "Smart Contract"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Text Editor",
+      "label": "Notes"
+    }
+  ],
+  "icon": "fa fa-exchange",
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2025-12-19 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Blockchain Hcm",
+  "name": "Blockchain Transaction",
+  "naming_rule": "Expression",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": [],
+  "track_changes": 1
+}
